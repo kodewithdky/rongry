@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300&family=Lato:ital@1&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========Navbar css============= */
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: #0000003d 0px 3px 8px;
+  -webkit-box-shadow: #0000003d 0px 3px 8px;
+}
+
+.nav-link{
+  font-weight: normal !important;
+  margin: 5px;
+}
+
+.active{
+  border-bottom: 2px solid black;
+
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+/* =======Footer css========== */
+.footer{
+  color: white;
+  background-color: black;
+  margin: 5px;
+  padding: 20px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #db0fb9;
+  padding: 5px;
+  font-weight: bold;
+}
+.footer a:hover{
+  cursor: pointer;
+  color: #0000ff;
+  border-bottom: 2px solid #db0fb9;
+}
+
+/* ===========page not found css========== */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: #000000;
+  border: 1px solid #000000;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+  
+}
+
+
+/* font-family: 'Handjet', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */

@@ -1,0 +1,49 @@
+/* ======Register css */
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+    background-color: #ffdee9;
+    border-image: linear-gradient(0deg,#ffdee9 0%,#b5fffc 100%);
+  
+  }
+
+  .form-container form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .form-container form .title{
+      text-align: center;
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-family: 'Playfair Display', serif;
+  }
+
+  .form-container form input{
+    border: none;
+    border-bottom: 2px solid #0c0c0c;
+    border-radius: 0;
+  }
+
+  .form-container form button{
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    width: 250px;
+    font-weight: bold;
+
+  }
+
+  .form-container form button:hover{
+    border: 1px solid black;
+    background-color: #01f67f;
+    color: #db20b0;
+    font-weight: bold;
+
+  }
+
