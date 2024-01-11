@@ -105,7 +105,7 @@ const HomePage = () => {
     }
   };
   return (
-    <Layout title={"Home -myShop "}>
+    <Layout title={"Home -rongry "}>
       <div className="container-fluid row mt-2">
         <div className="col-md-2">
           <h5 className="text-center">Filter By Category</h5>

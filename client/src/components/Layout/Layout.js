@@ -25,7 +25,7 @@ const Layout = ({ children, title, description, keywords, author }) => {
 };
 
 Layout.defaultProps = {
-  title: "my-Shop-online",
+  title: "rongry",
   description: "here you can puchage anything",
   keywords: "ecommerce,shop",
   author: "codewithdky",

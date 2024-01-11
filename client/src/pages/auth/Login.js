@@ -39,7 +39,7 @@ const Login = () => {
   };
 
   return (
-    <Layout title={"Register-MyShop"}>
+    <Layout title={"Register-Rongry"}>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
           <h3 className="title">Login</h3>

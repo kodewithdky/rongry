@@ -5,7 +5,7 @@ import { useSearch } from "../context/Search";
 const Search = () => {
   const [values] = useSearch();
   return (
-    <Layout title="Search -result myshop">
+    <Layout title="Search -result rongry">
       <div className="container">
         <div className="text-center">
           <h1>Search Results</h1>
